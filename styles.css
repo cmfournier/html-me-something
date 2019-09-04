@@ -1,22 +1,28 @@
 
 header {
     text-align: center;
-
     font-size: 20px;
     border: 2px black solid;
     background-color: gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 10px 10px 10px;
 }
 
 main {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 50% 50%;
+
     background-color: lightslategray;
 }
 
 .Company {
     border: 1px black solid;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+#col{
+    column-count: 2;
+    column-width: 50%;
 }
 
 .Dates {
