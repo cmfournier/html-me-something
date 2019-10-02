@@ -20,6 +20,10 @@ main {
 
 }
 
+section {
+    column-count: 2;
+    column-gap: 2 em;
+}
 #col{
     column-count: 2;
     column-width: 50%;
